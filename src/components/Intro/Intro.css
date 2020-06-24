@@ -1,0 +1,65 @@
+.headOuter{
+    min-width: 100vh;
+    min-height: 100vh;
+    background-color: #000;
+    max-height: 100vh;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.particles{
+    height: 100%;
+    min-width: 100%;
+    position: "absolute";
+    top: 0;
+    left: 0;
+    filter: blur(1.8px);
+    position: absolute;
+    z-index: 1;
+}
+
+.nameDiv {
+    /* background-image: linear-gradient(to bottom right, #e23e57, #a32a3c ); */
+    background-color: black;
+    position: relative;
+    border-color: #e23e57;
+    color: #e23e57;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding-top: 10vh;
+    margin: 0 auto;
+    z-index: 2;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 100%;
+
+}
+
+.nameDivWrapper{
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    background: linear-gradient(to right, #e23e57, #f63ffc);
+    padding: 3px;
+}
+
+
+.svgIntro{
+    z-index: 100;
+    padding: 1%;
+    width: 5%;
+    height: 5%;
+    fill: #e23e57;
+    cursor: pointer;
+}
+
+.svgIntro:hover {
+    fill: #fff;
+}

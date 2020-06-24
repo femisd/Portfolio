@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -27,6 +28,41 @@
 .App-link {
   color: #61dafb;
 }
+
+.navDiv{
+  z-index: 101;
+  position: fixed;
+  min-width: 100%;
+  max-height: 5%;
+}
+
+.navBar{
+  z-index: 102;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  cursor: pointer;
+  color: #e23e57;
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #e23e57;
+  color: aliceblue;
+}
+
 
 @keyframes App-logo-spin {
   from {
