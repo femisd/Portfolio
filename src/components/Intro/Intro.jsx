@@ -103,11 +103,8 @@ function Intro() {
             />
             <div className="nameDivWrapper">
                 <div className="nameDiv">
-
                     <h1>
-                        Femi Sodiya
-                </h1>
-                    <h1>
+                        Femi Sodiya <br />
                         Software Developer
                 </h1>
                 </div>

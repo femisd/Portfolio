@@ -52,6 +52,7 @@ li {
 }
 
 li a {
+  font-weight: bold;
   display: block;
   text-align: center;
   padding: 16px;
