@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.d32d1378.chunk.css",
-    "main.js": "/static/js/main.9329159d.chunk.js",
-    "main.js.map": "/static/js/main.9329159d.chunk.js.map",
+    "main.css": "/static/css/main.a8889418.chunk.css",
+    "main.js": "/static/js/main.17f23c46.chunk.js",
+    "main.js.map": "/static/js/main.17f23c46.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.5e17fa80.chunk.js": "/static/js/2.5e17fa80.chunk.js",
-    "static/js/2.5e17fa80.chunk.js.map": "/static/js/2.5e17fa80.chunk.js.map",
+    "static/js/2.b071d76e.chunk.js": "/static/js/2.b071d76e.chunk.js",
+    "static/js/2.b071d76e.chunk.js.map": "/static/js/2.b071d76e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.620a869117fcc9d30fd302cdab463163.js": "/precache-manifest.620a869117fcc9d30fd302cdab463163.js",
+    "precache-manifest.3f06d3c5688757ae62591c49d068b19e.js": "/precache-manifest.3f06d3c5688757ae62591c49d068b19e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.d32d1378.chunk.css.map": "/static/css/main.d32d1378.chunk.css.map",
-    "static/js/2.5e17fa80.chunk.js.LICENSE.txt": "/static/js/2.5e17fa80.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "static/css/main.a8889418.chunk.css.map": "/static/css/main.a8889418.chunk.css.map",
+    "static/js/2.b071d76e.chunk.js.LICENSE.txt": "/static/js/2.b071d76e.chunk.js.LICENSE.txt",
+    "static/media/acvera.PNG": "/static/media/acvera.a940297a.PNG",
+    "static/media/bookhub.PNG": "/static/media/bookhub.36048e3d.PNG",
+    "static/media/delivery.jpg": "/static/media/delivery.00a28b64.jpg",
+    "static/media/fitpic.PNG": "/static/media/fitpic.da512814.PNG",
+    "static/media/munch.PNG": "/static/media/munch.9a441fbb.PNG",
+    "static/media/prof.jpg": "/static/media/prof.235164fc.jpg",
+    "static/media/stalling.PNG": "/static/media/stalling.b2d8f90c.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.5e17fa80.chunk.js",
-    "static/css/main.d32d1378.chunk.css",
-    "static/js/main.9329159d.chunk.js"
+    "static/js/2.b071d76e.chunk.js",
+    "static/css/main.a8889418.chunk.css",
+    "static/js/main.17f23c46.chunk.js"
   ]
 }

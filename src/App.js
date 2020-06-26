@@ -4,7 +4,7 @@ import Intro from './components/Intro/Intro'
 import AboutMe from './components/AboutMe/AboutMe';
 import Projects from './components/Projects/Projects';
 import * as Scroll from 'react-scroll';
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Element, animateScroll as scroller } from 'react-scroll'
 
 function App() {
   return (

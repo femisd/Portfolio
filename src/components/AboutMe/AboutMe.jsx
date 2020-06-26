@@ -1,7 +1,6 @@
 import React from 'react';
 import './AboutMe.css';
 import profilePic from '../../img/prof.jpg';
-import Laptop from '../Laptop/Laptop';
 import Terminal from '../Terminal/Terminal';
 
 function AboutMe() {
