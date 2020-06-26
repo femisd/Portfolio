@@ -1,6 +1,10 @@
 .App {
   text-align: center;
   background-color: black;
+  min-width: 100%;
+  max-width: 100%;
+  margin: 0;
+  flex: 1;
 }
 
 .App-logo {
@@ -34,9 +38,11 @@
   position: fixed;
   min-width: 100%;
   max-height: 5%;
+  max-width: 100%;
 }
 
 .navBar{
+  width: 100%;
   z-index: 102;
   list-style-type: none;
   margin: 0;
@@ -45,9 +51,9 @@
   background-color: black;
 }
 
-li {
+.navElement {
   cursor: pointer;
-  color: #e23e57;
+  color: #f73939;
   float: right;
 }
 
@@ -59,7 +65,7 @@ li a {
   text-decoration: none;
 }
 
-li:hover {
+li.navDiv:hover {
   background-color: #e23e57;
   color: aliceblue;
 }

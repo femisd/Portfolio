@@ -1,0 +1,126 @@
+.aboutContainer{
+width: 100%;
+}
+
+.aboutMeOuter{
+    min-width: 100%;
+    height: auto;
+    max-width: 100%;
+    background-image: linear-gradient(to bottom, black, #f53844);
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.aboutMeInner{
+    background-image: linear-gradient(to bottom, #171616, black);
+    width: 99%;
+    height: 99%;
+    border-radius: 25px;
+    padding-bottom: 10%;
+}
+
+.profilePic{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.imageWrapper{
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, white , white);
+    display: block;
+    padding: 3px;
+}
+
+.innterIntroPar{
+    display: grid;
+    place-items: center;
+    padding-top: 5%;
+}
+
+.introMonologDiv{
+    text-align: center;
+    color: #d1d1d1;
+    display: block;
+    max-width: 55vw;
+}
+
+
+.terminalBar{
+    width: 100%;
+    z-index: 102;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2a2b2b;
+    max-height: 8vh ;
+}
+
+.terminalWindowElement{
+    font-size: 1.5rem;
+    color: white;
+    float: right;
+}
+
+.terminalName{
+    padding-left: 2vh;
+    padding-top: 2.5vh;
+    font-size: 1rem;
+    color: white;
+    float: left; 
+}
+
+.technicalSkillDiv{
+    width: 100%;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.terminalHead{
+   width: 70%;
+   border-style: solid;
+   border-color: #2a2b2b;
+   border-width: 4px;
+}
+
+@media screen and (max-width: 992px) {
+    .terminalHead{
+        width: 90%;
+    }
+}
+
+.terminalIcon{
+    margin-right: 1vh;
+    fill: white;
+    width: 2vh;
+    height: auto;
+}
+
+.skillsOuter{
+    /* background-color: #f73939; */
+    background-color: #42378f;
+    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%); 
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+@media screen and (max-width: 992px) {
+    .introMonologDiv{
+        max-width: 100vh;
+    }
+}
+

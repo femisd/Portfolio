@@ -2,24 +2,26 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Intro from './components/Intro/Intro'
+import AboutMe from './components/AboutMe/AboutMe';
 
 function App() {
   return (
     <div className="App">
        <div className="navDiv">
                 <ul className="navBar">
-                    <li>
+                    <li className="navElement">
                         <a>Hackathons</a>
                     </li>
-                    <li>
+                    <li className="navElement">
                         <a>Projects</a>
                     </li>
-                    <li>
+                    <li className="navElement">
                         <a>About me</a>
                     </li>
                 </ul>
-            </div>
+      </div>
       <Intro />
+      <AboutMe />
     </div>
   );
 }

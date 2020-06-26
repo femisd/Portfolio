@@ -17,7 +17,7 @@ function Intro() {
                             }
                         },
                         color: { // The color for every node, not the connecting lines.
-                            value: "#e23e57" // Or use an array of colors like ["#9b0000", "#001378", "#0b521f"]
+                            value: "#f73939" // Or use an array of colors like ["#9b0000", "#001378", "#0b521f"]
                         },
                         shape: {
                             type: "circle", // Can show circle, edge (a square), triangle, polygon, star, img, or an array of multiple.
@@ -103,10 +103,10 @@ function Intro() {
             />
             <div className="nameDivWrapper">
                 <div className="nameDiv">
-                    <h1>
+                
                         Femi Sodiya <br />
                         Software Developer
-                </h1>
+
                 </div>
             </div>
             <div style={{ zIndex: 50}}>
