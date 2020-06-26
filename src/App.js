@@ -1,8 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Intro from './components/Intro/Intro'
 import AboutMe from './components/AboutMe/AboutMe';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       </div>
       <Intro />
       <AboutMe />
+      <Projects />
     </div>
   );
 }
