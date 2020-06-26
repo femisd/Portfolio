@@ -61,7 +61,7 @@ width: 100%;
     padding: 0;
     overflow: hidden;
     background-color: #2a2b2b;
-    max-height: 8vh ;
+    max-height: 6.5vh ;
 }
 
 .terminalWindowElement{
@@ -71,6 +71,7 @@ width: 100%;
 }
 
 .terminalName{
+    padding-bottom: 2.5vh;
     padding-left: 2vh;
     padding-top: 2.5vh;
     font-size: 1rem;

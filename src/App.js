@@ -3,8 +3,7 @@ import './App.scss';
 import Intro from './components/Intro/Intro'
 import AboutMe from './components/AboutMe/AboutMe';
 import Projects from './components/Projects/Projects';
-import * as Scroll from 'react-scroll';
-import { Element, animateScroll as scroller } from 'react-scroll'
+import { Element, scroller } from 'react-scroll'
 
 function App() {
   return (
@@ -12,14 +11,7 @@ function App() {
       <div className="navDiv">
         <ul className="navBar">
           <li className="navElement">
-            <a
-            // onClick={() => scroller.scrollTo('Intro', {
-            //   duration: 1500,
-            //   delay: 100,
-            //   smooth: true,
-            //   offset: 0,
-            // })}
-            >Hackathons</a>
+            <span>Hackathons</span>
           </li>
           <li className="navElement"
             onClick={() => scroller.scrollTo('Projects', {
@@ -28,7 +20,7 @@ function App() {
               smooth: true,
               offset: -50,
             })}>
-            <a>Projects</a>
+            <span>Projects</span>
           </li>
           <li className="navElement"
             onClick={() => scroller.scrollTo('AboutMe', {
@@ -37,7 +29,7 @@ function App() {
               smooth: true,
               offset: -50,
             })}>
-            <a>About me</a>
+            <span>About me</span>
           </li>
         </ul>
       </div>

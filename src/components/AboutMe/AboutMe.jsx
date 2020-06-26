@@ -27,13 +27,13 @@ function AboutMe() {
                                 My_Skills.exe
                             </li>
                             <li className="terminalWindowElement">
-                                <a style={{ fontSize: "2.6rem", fontWeight: "lighter" }}>˟</a>
+                                <span style={{ fontSize: "2.6rem", fontWeight: "lighter", marginLeft:"0.5vw", marginRight:"0.5vw" }}>˟</span>
                             </li>
                             <li className="terminalWindowElement">
-                                <a>□</a>
+                                <span style={{marginLeft:"0.5vw", marginRight:"0.5vw"}}>□</span>
                             </li>
                             <li className="terminalWindowElement">
-                                <a>_</a>
+                                <span style={{marginLeft:"0.5vw", marginRight:"0.5vw"}}>_</span>
                             </li>
                         </ul>
                         <Terminal />
