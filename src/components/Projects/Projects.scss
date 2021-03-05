@@ -1,3 +1,20 @@
+.my-modal .modal-content {
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    color: #171717;
+    border-radius: 10px;
+    border-width: medium;
+ }
+
+.modal-dialog{
+    min-width: 70%;
+}
+
+.modal-footer{
+    align-items: flex-start !important;
+    justify-content: left !important;
+    text-align: left !important;
+}
+
 .projectsContainer{
     width: 100%;
     background-color: #42378f;

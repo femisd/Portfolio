@@ -4,6 +4,7 @@ import Intro from './components/Intro/Intro'
 import AboutMe from './components/AboutMe/AboutMe';
 import Projects from './components/Projects/Projects';
 import { Element, scroller } from 'react-scroll'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
