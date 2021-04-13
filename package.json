@@ -16,7 +16,8 @@
     "react-dom": "^16.13.1",
     "react-particles-js": "^3.2.1",
     "react-scripts": "^3.4.3",
-    "react-scroll": "^1.7.16"
+    "react-scroll": "^1.7.16",
+    "typewriter-effect": "^2.17.0"
   },
   "scripts": {
     "start": "react-scripts start",

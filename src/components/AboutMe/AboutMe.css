@@ -34,7 +34,10 @@ width: 100%;
     width: 20vh;
     height: 20vh;
     border-radius: 50%;
-    background: linear-gradient(to bottom, white , white);
+    /* background: linear-gradient(to bottom, white , white); */
+    background: linear-gradient(-90deg, #f35a5a, #2153f5, #f35a5a);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
     display: block;
     padding: 3px;
 }
@@ -125,3 +128,15 @@ width: 100%;
     }
 }
 
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

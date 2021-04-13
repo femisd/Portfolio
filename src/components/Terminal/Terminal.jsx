@@ -51,7 +51,7 @@ function Terminal() {
         <div class="letter">&nbsp; - JavaScript</div>
       </div>
       <div class="row2">
-        <div class="letter">&nbsp; - ReactJs</div>
+        <div class="letter">&nbsp; - React Native</div>
       </div>
       <div class="row2">
         <div class="letter">Back-end:</div>
@@ -78,7 +78,7 @@ function Terminal() {
         <div class="letter">&nbsp; - Spring</div>
       </div>
       <div class="row2">
-        <div class="letter">&nbsp; - ReactNative   </div>
+        <div class="letter">&nbsp; - Express   </div>
       </div>
       <div class="row2">
         <div class="letter">Databases:</div>
