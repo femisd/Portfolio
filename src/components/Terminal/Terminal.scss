@@ -1,5 +1,5 @@
    .container {
-    background-color: black;
+    background-color: #282828;
     color: white;
     text-align: left;  
     height: auto;
@@ -15,6 +15,18 @@
     width: 70%;
     display:flex;
     justify-content: left;
+   }
+
+   .consoleInfo {
+     color: #fbf1c7;
+   }
+
+   .consoleHeader {
+     color: #fb4934;
+   }
+
+   .consoleSub{
+    color: #b8bb26;
    }
    
    .cursor {

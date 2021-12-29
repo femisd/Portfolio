@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <div className="navDiv">
         <ul className="navBar">
-          <li className="navElement">
+          {/* <li className="navElement">
             <span>Hackathons</span>
-          </li>
+          </li> */}
           <li className="navElement"
             onClick={() => scroller.scrollTo('Projects', {
               duration: 1500,
